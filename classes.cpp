@@ -15,6 +15,13 @@ public:
         cout << "Employee ID: " << employeeId << endl;
     }
 
+    void setName(string x){
+        name = x;
+    }
+
+    string getName(){
+        return name;
+    }
 };
 
 int main(){
@@ -22,6 +29,11 @@ int main(){
 
     Employee employee1;
     employee1.printEmployeeInfo();
+
+    cout << endl;
+    cout << employee1.getName() << endl;
+    employee1.setName("Nami Kazuma");
+    cout << employee1.getName() << endl;
 
 
 }
