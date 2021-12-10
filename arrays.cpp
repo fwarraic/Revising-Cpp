@@ -17,4 +17,15 @@ int main(){
 
     }
 
+    // adding the the elemts of the array.
+
+    int sum = 0;
+
+    for(int i = 0; i < 100; i++){
+
+        sum += arr1[i];
+    }
+
+    cout << "The sum of the elements of the array is: " << sum << endl;
+
 }
